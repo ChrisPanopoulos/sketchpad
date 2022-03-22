@@ -1,0 +1,48 @@
+body{
+    background-color: brown;
+}
+
+h1{
+    text-align: center;
+    font-style: italic;
+    color: aquamarine;
+
+}
+
+.btns{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+   
+}
+
+#erase , #clear , #color{
+    border-radius: 8px;
+    padding: 10px 15px;
+    background-color: aquamarine;
+    color: black;
+    font-weight: bold;
+    
+    
+}
+.box{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    gap: 200px;
+}
+
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(16,1fr);
+    
+    
+}
+
+.grid-item{
+    
+    padding: 15px;
+    background-color: white;
+}
